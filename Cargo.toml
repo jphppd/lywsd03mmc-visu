@@ -4,10 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bluer = { version = "0.16.1", features = ["bluetoothd"] }
-chrono = { version = "0.4", default-features = false, features = ["clock"] }
-clap = { version = "4.0", features = ["derive", "cargo"] }
-csv = "1.1"
-futures = "0.3"
-influxdb = { version = "0.7.1", features = ["derive"] }
-tokio = "1.22"
+bluer = { version = "0.17.1", features = ["bluetoothd"] }
+btsensor = "0.1.0"
+chrono = { version = "0.4.37", default-features = false, features = ["clock"] }
+clap = { version = "4.5", features = ["derive", "cargo"] }
+csv = "1.3"
+futures = "0.3.30"
+influxdb = { version = "0.7.2", features = ["derive"] }
+tokio = "1.37"
